@@ -1,0 +1,57 @@
+{
+  "name": "voto-informado-cr",
+  "version": "1.0.0",
+  "description": "CLI para investigar candidatos presidenciales de Costa Rica 2026",
+  "type": "module",
+  "bin": {
+    "voto": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "process": "node src/process-data.js",
+    "build-kb": "node src/build-knowledge-base.js",
+    "build": "npm run build:macos && npm run build:linux && npm run build:windows",
+    "build:macos": "pkg . --targets node18-macos-x64,node18-macos-arm64 --output dist/voto-macos",
+    "build:linux": "pkg . --targets node18-linux-x64 --output dist/voto-linux",
+    "build:windows": "pkg . --targets node18-win-x64 --output dist/voto-win.exe",
+    "prepublishOnly": "npm run build-kb"
+  },
+  "files": [
+    "src/**/*",
+    "data/**/*"
+  ],
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0",
+    "inquirer": "^9.2.0",
+    "ora": "^8.0.0"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  },
+  "pkg": {
+    "scripts": "src/**/*.js",
+    "assets": [
+      "data/**/*"
+    ],
+    "outputPath": "dist"
+  },
+  "keywords": [
+    "costa-rica",
+    "elecciones",
+    "2026",
+    "politica",
+    "cli",
+    "candidatos"
+  ],
+  "author": "brolag",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brolag/voto-informado-cr-2026"
+  },
+  "homepage": "https://github.com/brolag/voto-informado-cr-2026#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "playlist": "Conociendo las Candidaturas - Elecciones CR 2026",
+  "playlist_url": "https://www.youtube.com/playlist?list=PL_9kxaX8n_SXAg9Z3Cz2UuKmHbIdhC_tP",
+  "source": "TSE Costa Rica",
+  "entrevistas_tse": [
+    {"num": 1, "candidato": "Walter Hernández Juárez", "partido": "PJSC", "videoId": "NFy3G6jqJjg", "url": "https://youtube.com/watch?v=NFy3G6jqJjg"},
+    {"num": 2, "candidato": "Luz Mary Alpízar Loaiza", "partido": "PSD", "videoId": "oh-LZ8mQ_UM", "url": "https://youtube.com/watch?v=oh-LZ8mQ_UM"},
+    {"num": 3, "candidato": "Boris Molina Acevedo", "partido": "PUCD", "videoId": "YwYAhBZKQEA", "url": "https://youtube.com/watch?v=YwYAhBZKQEA"},
+    {"num": 4, "candidato": "Natalia Díaz Quintana", "partido": "UP", "videoId": "1Mf3kzWgKaw", "url": "https://youtube.com/watch?v=1Mf3kzWgKaw"},
+    {"num": 5, "candidato": "Fernando Zamora Castellanos", "partido": "PNG", "videoId": "LWlrGVAiZR4", "url": "https://youtube.com/watch?v=LWlrGVAiZR4"},
+    {"num": 6, "candidato": "Marco Rodríguez Badilla", "partido": "PEL", "videoId": "16xBb_hILa0", "url": "https://youtube.com/watch?v=16xBb_hILa0"},
+    {"num": 7, "candidato": "David Hernández Brenes", "partido": "PDLCT", "videoId": "Ivza06J0gjU", "url": "https://youtube.com/watch?v=Ivza06J0gjU"},
+    {"num": 8, "candidato": "Ana Virginia Calzada Miranda", "partido": "CDS", "videoId": "HKVIEttQCTk", "url": "https://youtube.com/watch?v=HKVIEttQCTk"},
+    {"num": 9, "candidato": "Claudia Dobles Camargo", "partido": "CAC", "videoId": "hqiS-X0CiEM", "url": "https://youtube.com/watch?v=hqiS-X0CiEM"},
+    {"num": 10, "candidato": "Fabricio Alvarado Muñoz", "partido": "PNR", "videoId": "4GWGCR-21mM", "url": "https://youtube.com/watch?v=4GWGCR-21mM"},
+    {"num": 11, "candidato": "Ronny Castillo González", "partido": "ACRM", "videoId": "rc7G3-n-6G8", "url": "https://youtube.com/watch?v=rc7G3-n-6G8"},
+    {"num": 12, "candidato": "Eliécer Feinzaig Mintz", "partido": "PLP", "videoId": "tdN_G9Jh0mc", "url": "https://youtube.com/watch?v=tdN_G9Jh0mc"},
+    {"num": 13, "candidato": "Laura Fernández Delgado", "partido": "PPSO", "videoId": "LdDuLaJ-iH4", "url": "https://youtube.com/watch?v=LdDuLaJ-iH4"},
+    {"num": 14, "candidato": "José Aguilar Berrocal", "partido": "PA", "videoId": "uDmPQotyZRM", "url": "https://youtube.com/watch?v=uDmPQotyZRM"},
+    {"num": 15, "candidato": "Claudio Alpízar Otoya", "partido": "PEN", "videoId": "_ctmDd36skw", "url": "https://youtube.com/watch?v=_ctmDd36skw"},
+    {"num": 16, "candidato": "Álvaro Ramos Chaves", "partido": "PLN", "videoId": "yxStLBeuNEI", "url": "https://youtube.com/watch?v=yxStLBeuNEI"},
+    {"num": 17, "candidato": "Douglas Caamaño Quirós", "partido": "CR1", "videoId": "pcpe9SEXgRc", "url": "https://youtube.com/watch?v=pcpe9SEXgRc"},
+    {"num": 18, "candidato": "Luis Amador Jiménez", "partido": "PIN", "videoId": "XFx-_JBlyKo", "url": "https://youtube.com/watch?v=XFx-_JBlyKo"},
+    {"num": 19, "candidato": "Ariel Robles Barrantes", "partido": "FA", "videoId": "8DQt5h-f9NI", "url": "https://youtube.com/watch?v=8DQt5h-f9NI"},
+    {"num": 20, "candidato": "Juan Carlos Hidalgo Bogantes", "partido": "PUSC", "videoId": "z_UOFQKZKxI", "url": "https://youtube.com/watch?v=z_UOFQKZKxI"}
+  ],
+  "debates_tse": [
+    {"num": 1, "titulo": "Debate 1", "videoId": "285PnRfHoBU", "url": "https://youtube.com/watch?v=285PnRfHoBU"},
+    {"num": 2, "titulo": "Debate 2", "videoId": "tA_pCNJ7Qqo", "url": "https://youtube.com/watch?v=tA_pCNJ7Qqo"},
+    {"num": 3, "titulo": "Debate 3", "videoId": "8-lgFjsQAtw", "url": "https://youtube.com/watch?v=8-lgFjsQAtw"}
+  ],
+  "no_pasa_nada_apolitico": [
+    {"candidato": "Álvaro Ramos", "partido": "PLN", "videoId": "E6ZD9zoalCE", "url": "https://youtube.com/watch?v=E6ZD9zoalCE"},
+    {"candidato": "Claudia Dobles", "partido": "CAC", "videoId": "N3zMVRAdeUE", "url": "https://youtube.com/watch?v=N3zMVRAdeUE"},
+    {"candidato": "Ariel Robles", "partido": "FA", "videoId": "SmLgqhh_hXY", "url": "https://youtube.com/watch?v=SmLgqhh_hXY"},
+    {"candidato": "Juan Carlos Hidalgo", "partido": "PUSC", "videoId": "T0fvCje77Ps", "url": "https://youtube.com/watch?v=T0fvCje77Ps"}
+  ],
+  "sepamos_ser_libres": [
+    {"candidato": "Claudia Dobles", "partido": "CAC", "fecha": "05 Enero 2026", "videoId": "QDyBgN2ovk0", "url": "https://youtube.com/watch?v=QDyBgN2ovk0"},
+    {"candidato": "Ariel Robles", "partido": "FA", "fecha": "06 Enero 2026", "videoId": "uWcJFA4iwQA", "url": "https://youtube.com/watch?v=uWcJFA4iwQA"},
+    {"candidato": "Álvaro Ramos", "partido": "PLN", "fecha": "08 Enero 2026", "videoId": "q6fU4EWeG2U", "url": "https://youtube.com/watch?v=q6fU4EWeG2U"},
+    {"candidato": "Juan Carlos Hidalgo", "partido": "PUSC", "fecha": "07 Enero 2026", "videoId": "bdxvWUEunHg", "url": "https://youtube.com/watch?v=bdxvWUEunHg"},
+    {"candidato": "Natalia Díaz", "partido": "UP", "fecha": "10 Enero 2026", "videoId": "sMzAy0c4ihQ", "url": "https://youtube.com/watch?v=sMzAy0c4ihQ"}
+  ],
+  "en_profundidad_teletica": [
+    {"candidato": "Juan Carlos Hidalgo", "partido": "PUSC", "videoId": "IUODPQJC6Og", "url": "https://youtube.com/watch?v=IUODPQJC6Og"},
+    {"candidato": "Eliécer Feinzaig", "partido": "PLP", "videoId": "goRkSh8T9hc", "url": "https://youtube.com/watch?v=goRkSh8T9hc"},
+    {"candidato": "Claudia Dobles", "partido": "CAC", "videoId": "RTirGyP2W8k", "url": "https://youtube.com/watch?v=RTirGyP2W8k"},
+    {"candidato": "Laura Fernández", "partido": "PPSO", "videoId": "yoCSLeyLbB0", "url": "https://youtube.com/watch?v=yoCSLeyLbB0"},
+    {"candidato": "Ariel Robles", "partido": "FA", "videoId": "lFCnSnOupds", "url": "https://youtube.com/watch?v=lFCnSnOupds"},
+    {"candidato": "Álvaro Ramos", "partido": "PLN", "videoId": "PVKd05XuJCQ", "url": "https://youtube.com/watch?v=PVKd05XuJCQ"},
+    {"candidato": "José Aguilar Berrocal", "partido": "PA", "videoId": "hJnJtjLQZCs", "url": "https://youtube.com/watch?v=hJnJtjLQZCs"},
+    {"candidato": "Ana Virginia Calzada", "partido": "CDS", "videoId": "H8_LqGFAYEI", "url": "https://youtube.com/watch?v=H8_LqGFAYEI"},
+    {"candidato": "Natalia Díaz", "partido": "UP", "videoId": "vH_LHK1wR-I", "url": "https://youtube.com/watch?v=vH_LHK1wR-I"},
+    {"candidato": "Luz Mary Alpízar", "partido": "PSD", "videoId": "fQCK7hCp2g4", "url": "https://youtube.com/watch?v=fQCK7hCp2g4"}
+  ],
+  "hablando_claro_columbia": [
+    {"titulo": "Hablando Claro 09 Enero 2026", "videoId": "jJ6at_Rt1mk", "url": "https://youtube.com/watch?v=jJ6at_Rt1mk"}
+  ],
+  "total_videos": 43,
+  "nota": "Falta debate del 12 de enero 2026 - agregar después. Hablando Claro tiene programa diario, agregar más entrevistas según se publiquen."
+}
