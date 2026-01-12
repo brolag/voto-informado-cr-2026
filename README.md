@@ -4,34 +4,6 @@ CLI para investigar a los candidatos presidenciales de Costa Rica 2026.
 
 ## Instalación
 
-### Opción 1: npm (requiere Node.js)
-
-```bash
-npm install -g voto-informado-cr
-```
-
-### Opción 2: Binario standalone (sin Node.js)
-
-Descargá el ejecutable para tu sistema desde [Releases](https://github.com/brolag/voto-informado-cr-2026/releases):
-
-| Sistema | Archivo |
-|---------|---------|
-| macOS (Intel) | `voto-macos-x64` |
-| macOS (Apple Silicon) | `voto-macos-arm64` |
-| Linux | `voto-linux` |
-| Windows | `voto-win.exe` |
-
-```bash
-# macOS/Linux: dar permisos y mover a PATH
-chmod +x voto-macos-arm64
-sudo mv voto-macos-arm64 /usr/local/bin/voto
-
-# Windows: agregar a PATH o ejecutar directamente
-.\voto-win.exe
-```
-
-### Opción 3: Desde el código fuente
-
 ```bash
 git clone https://github.com/brolag/voto-informado-cr-2026.git
 cd voto-informado-cr-2026
