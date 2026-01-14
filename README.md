@@ -17,6 +17,11 @@ npm link  # Para usar 'voto' globalmente
 # ⭐ Descubrí tu candidato ideal con un quiz
 voto quiz
 
+# 📊 Ver el espectro político de los partidos
+voto espectro                    # Vista general (izquierda ◄─► derecha)
+voto espectro -d                 # Con descripción detallada
+voto espectro FA PLP             # Comparar posiciones de dos partidos
+
 # 🤖 Asistente IA para preguntas sobre candidatos
 voto config                      # Configurar LLM (primera vez)
 voto chat                        # Chat interactivo con IA
@@ -67,6 +72,32 @@ voto chat
 voto ask "¿Qué propone Claudia Dobles sobre educación?"
 voto ask "Compará a Álvaro Ramos y Juan Carlos Hidalgo"
 voto ask "¿Quién habla más de seguridad?"
+```
+
+## Espectro Político
+
+El comando `voto espectro` te permite visualizar la posición ideológica de cada partido en dos ejes:
+
+- **Eje Económico**: Izquierda (Estado activo) ◄─► Derecha (Libre mercado)
+- **Eje Social**: Progresista ◄─► Conservador
+
+### Clasificación General
+
+| Posición | Partidos |
+|----------|----------|
+| **Izquierda** | FA, PDLCT |
+| **Centro-izquierda** | CAC, UP, PSD, PJSC |
+| **Centro** | PLN, PPSO, CDS |
+| **Centro-derecha** | PUSC, PA, PIN |
+| **Derecha** | PLP, CR1, PNR, PNG |
+
+### Comparar Partidos
+
+Podés comparar la distancia ideológica entre dos partidos:
+
+```bash
+voto espectro FA PLP    # Compara Frente Amplio con Liberal Progresista
+voto espectro CAC PUSC  # Compara Acción Ciudadana con PUSC
 ```
 
 ## Quiz de Afinidad Política

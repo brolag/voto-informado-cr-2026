@@ -13,6 +13,7 @@ import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import { runQuiz } from './quiz.js';
 import { startChat, configureProvider, askQuestion } from './ai-chat.js';
+import { drawSpectrum, compareSpectrum } from './espectro.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = join(__dirname, '..');
@@ -364,6 +365,20 @@ program
     await runQuiz();
   });
 
+// === ESPECTRO - VER ESPECTRO POLITICO ===
+program
+  .command('espectro [partido1] [partido2]')
+  .alias('e')
+  .description('Ver el espectro político de los partidos (izquierda ◄─► derecha)')
+  .option('-d, --detalle', 'Mostrar descripción detallada de cada partido')
+  .action((partido1, partido2, options) => {
+    if (partido1 && partido2) {
+      compareSpectrum(partido1, partido2);
+    } else {
+      drawSpectrum({ detalle: options.detalle });
+    }
+  });
+
 // === CONFIG - CONFIGURAR LLM ===
 program
   .command('config')
@@ -394,6 +409,9 @@ program
 program.addHelpText('after', `
 ${chalk.cyan('Ejemplos:')}
   $ voto quiz                    # ⭐ Descubrí tu candidato ideal
+  $ voto espectro                # 📊 Ver espectro político (izq ◄─► der)
+  $ voto espectro -d             # 📊 Espectro con detalles
+  $ voto espectro FA PLP         # 📊 Comparar posiciones de dos partidos
   $ voto chat                    # 🤖 Chatear con asistente IA
   $ voto ask "¿qué propone PLN?" # Pregunta rápida
   $ voto config                  # Configurar LLM (Ollama/OpenAI/Claude/Gemini)
