@@ -40,7 +40,7 @@ const program = new Command();
 program
   .name('voto')
   .description(chalk.cyan('🗳️  Voto Informado CR 2026 - Investigá a los candidatos'))
-  .version('1.0.0');
+  .version('1.1.0');
 
 // === CANDIDATOS ===
 program

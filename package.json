@@ -1,6 +1,6 @@
 {
   "name": "voto-informado-cr",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "CLI para investigar candidatos presidenciales de Costa Rica 2026",
   "type": "module",
   "bin": {
